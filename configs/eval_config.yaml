@@ -1,0 +1,19 @@
+judge_model: "gpt-4o"
+max_concurrent: 5
+
+tasks:
+  discharge_summary_compression:
+    instruction: "Summarize this hospital discharge summary in 3 concise sentences suitable for the patient. Include the primary diagnosis, key treatment, and the most critical follow-up instructions."
+    max_output_tokens: 200
+
+  radiology_report_impression:
+    instruction: "Write a 2-3 sentence impression paragraph for this radiology report. List the most clinically significant findings in order of priority."
+    max_output_tokens: 150
+
+  progress_note_soap:
+    instruction: "Convert this clinical note into a structured SOAP format with Subjective, Objective, Assessment, and Plan sections."
+    max_output_tokens: 400
+
+  multi_visit_synthesis:
+    instruction: "Synthesize this series of clinical notes into a concise longitudinal problem summary. Organize by active medical problems."
+    max_output_tokens: 300

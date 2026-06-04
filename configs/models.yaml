@@ -1,0 +1,5 @@
+models:
+  - gpt-4o
+  - gpt-4o-mini
+  - claude-3-5-sonnet-20241022
+  - claude-3-haiku-20240307

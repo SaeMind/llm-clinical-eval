@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+*.egg
+
+# Data files — never commit raw data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+
+# Environment and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and outputs
+*.log
+logs/
+reports/*.json
+reports/*.html
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# MLflow
+mlruns/
+mlflow.db
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
